@@ -1,0 +1,46 @@
+.portfolio {
+    background-color: #F6F6F6;
+
+    &__container {
+        padding-top: 113px;
+
+        @media (max-width:576.66px) {
+            padding-top: 80px;
+            
+        }
+    }
+
+    &__title {
+        padding-bottom: 65px;
+
+
+    }
+
+    &__proj-list {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__link {
+        margin-top: 43px;
+        margin-bottom: 99px;
+        text-align: center;
+        text-decoration: underline;
+
+        @media (max-width:576.66px) {
+            padding-top: 33px;
+            padding-bottom: 77px;
+            
+        }
+
+        &:hover {
+            color: rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+        }
+    }
+}

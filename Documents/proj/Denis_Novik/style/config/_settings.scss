@@ -1,0 +1,27 @@
+* {
+    font-family: var(--font-family);
+    font-size: var(--fz-main);
+    line-height: var(--lh-main);
+    font-weight: var(--fw-main);
+    color: var(--text-color);
+    scroll-behavior: smooth
+
+
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 30px;
+}
+
+.title {
+    font-size: var(--fz-title);
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center
+}

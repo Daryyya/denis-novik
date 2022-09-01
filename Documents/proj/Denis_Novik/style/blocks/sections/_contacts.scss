@@ -1,0 +1,60 @@
+.contacts {
+
+    &__container {
+        padding-top: 114px;
+        padding-bottom: 123px;
+
+        @media (max-width:576.66px) {
+            padding-top: 80px;
+            padding-bottom: 90px;
+            
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 42px;
+    }
+
+    &__btn {
+        background-color: #070707;
+        border-radius: 100px;
+        padding: 15px 30px;
+        align-items: center;
+        transition: 0.3s;
+
+        a {
+            color: #fff;
+        }
+
+        &:hover {
+            transform: translateY(-7px);
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            background-color: #2EE59D;
+            transition: 0.3s;
+        }
+    }
+
+    &__messangers {
+        display: flex;
+        justify-content: space-between;
+        min-width: 343px;
+        padding-top: 80px;
+    }
+
+    &__mes-text {
+        padding-top: 45px;
+        font-size: 14px;
+        color: #828282;
+        line-height: 16.98px;
+        text-align: center;
+    }
+
+}

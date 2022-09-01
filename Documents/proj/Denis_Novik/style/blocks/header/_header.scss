@@ -1,0 +1,52 @@
+
+.header{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+
+    &__menu {
+        @media (max-width: 576.67px) {
+            display: none;
+        }
+
+    }
+
+    &__list {
+        max-width: 1000px;
+        padding: 0 30px;
+        margin: 0 auto;
+        
+
+
+        border-bottom: 1px solid #828282;
+        min-height: 81px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+
+
+         
+
+    }
+
+    
+
+    &__element {
+        text-decoration: none;
+        color: #828282;
+        font-weight: 700;
+    }
+
+    &__element:hover {
+        color: var(--text-color);
+    }
+
+   
+
+} 
+
+
+

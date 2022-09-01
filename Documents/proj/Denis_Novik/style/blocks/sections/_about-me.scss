@@ -1,0 +1,45 @@
+.about-me {
+    background-color: #F6F6F6;
+
+    &__container {
+        padding-top: 120px;
+        padding-bottom: 100px;
+
+        @media (max-width: 576.66px) {
+            
+            padding-top: 80px;
+            padding-bottom: 76px;
+        }
+    }
+
+    &__title {
+        padding-bottom: 30px;
+
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        @media (max-width: 576.65px) {
+            display: none;
+        }
+    }
+
+    &__info-alt {
+        display: none;
+
+        @media (max-width: 576.66px) {
+
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+       
+    }
+
+    &__text-dec:not(:last-child) {
+        padding-bottom: 50px;
+    }
+}

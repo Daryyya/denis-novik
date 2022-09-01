@@ -1,0 +1,91 @@
+.skills {
+    &__container {
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+        @media (max-width:576.66px) {
+            padding-top: 80px;
+            padding-bottom: 98px;
+        }
+    }
+
+
+
+    &__subtitle {
+        padding-top: 70px;
+        text-align: center;
+
+        @media (max-width:576.66px) {
+            padding-top: 50px;
+            
+        }
+    }
+
+    &__prog-list {
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        @media (min-width:768px) and (max-width:991px) {
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            
+        }
+    }
+
+    &__prog {
+        margin: 0px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+
+        @media (min-width:768px) and (max-width:991px) {
+            flex: 0 0 calc(50% - 10px);
+        }
+        
+        @media (max-width:768px) {
+            &:not(:last-child) {
+                padding-bottom: 45px;
+            }
+        }
+
+       
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 20px;
+
+        &:hover {
+            box-shadow: 1px 1px 30px 0.5px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s;
+            
+        }
+
+    }
+
+    &__prog-name {
+        padding-top: 28px;
+        color:#828282;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17.33px;
+    }
+
+    &__stars {
+        padding-top: 40px;
+
+        
+        }
+
+    
+}
